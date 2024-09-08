@@ -1,1 +1,35 @@
+Variables
+variables are containers for storing data values
+Data types
+str      - name = "satheesh"
+int      - course_fee = 800
+float    - course_rating = 4.9
+bool     - starting_soon  = True
+NoneType - total_income = None
+
+Whatever inside double quotes " " - treated as String
+course_rating = "4.9" - here type will be 'str'
+
+To check type of data
+print(type(name))
+
+To increase fee by 10%
+print(course_fee+(course_fee*0.1))
+
+String Concat and formatting
+first_name = "parnapalli"
+last_name = "satheesh"
+to concat first name & last name - print(first_name+last_name)
+to concat first name & last name with a space - print(first_name+ " " +last_name)
+
+print("my first name is " +first_name +" and my last name is " +last_name)
+print(f"my first name is {first_name} and my last name is {last_name}")
+my first name is parnapalli and my last name is satheesh
+
+To give an input
+To calculate Total salary after hike
+salary = input("how much: "))
+hike = input("percentage: "))
+total_salary = int(salary) + (int(salary) * int(hike) /100)
+print(total_salary)
 
