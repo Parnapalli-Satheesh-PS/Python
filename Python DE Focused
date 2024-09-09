@@ -33,3 +33,62 @@ hike = input("percentage: "))
 total_salary = int(salary) + (int(salary) * int(hike) /100)
 print(total_salary)
 
+Arithmetic functions
+*
+/ - print(5/2) =2.5
++
+-
+% Modulus - is gets remainder value
+** Exponential  - print(5**3) = 125
+// Floor division - rounds the result down to the nearest whole number - print(5//2) = 2
+print(2**2**3) = 256
+for exponential alone it will bind from right to left. so first 2**3 = 8 then 2**8=256
+
+import math
+sales = 500.10
+print(math.ceil(sales)) = 501 - round to upper value
+print(math.floor(sales)) = 500 - round to lower value
+sales = -500.10
+print(math.fabs(sales)) = 501 - 500.1 - just it will convert -/+ values to opposite
+
+Conditional statements
+If Else
+
+marks=int(input("enter marks: "))
+if marks>50:
+    print("pass")
+else:
+   print( "fail")
+
+Nested if else statement
+
+marks=int(input("enter marks:"))
+if marks>50:
+    if marks>80:
+        print("A grade")
+    else:
+        print("passed but didn't secured A grade")
+else:
+   print( "fail")
+
+marks=int(input("enter marks:"))
+
+Better & neat version
+if marks>80:
+        print("A grade")
+elif marks>=40:
+        print("passed but didn't secured A grade")
+else:
+   print( "fail")
+
+Logical operators
+AND
+OR
+NOT
+
+age=int(input("age:"))
+crime_record = input("any records yes/no:")
+if age>=18 and crime_record == "yes":
+    print("normal prison")
+else:
+    print("juvenile prison")
