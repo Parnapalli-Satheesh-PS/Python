@@ -92,3 +92,5 @@ if age>=18 and crime_record == "yes":
     print("normal prison")
 else:
     print("juvenile prison")
+
+
