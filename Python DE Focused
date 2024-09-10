@@ -93,4 +93,27 @@ if age>=18 and crime_record == "yes":
 else:
     print("juvenile prison")
 
+String - A sequence of characters
+we can enclose in " " or ' ' or """ """
 
+print('parnapalli' satheesh')
+it will give error, but using back slash or escape character \.
+print('parnapalli\' satheesh')
+o/p - parnapalli'satheesh
+
+/n is used to print content in a new line
+print("parnapalli\nsatheesh")
+o/p - 
+parnapalli
+satheesh
+
+\t is a tab
+
+For multi line we use """ """
+print("""parnapalli
+        satheesh""")
+o/p 
+parnapalli
+        satheesh
+
+String related operations
