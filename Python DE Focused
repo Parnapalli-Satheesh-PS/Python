@@ -117,7 +117,7 @@ o/p
 parnapalli
         satheesh
 
-String related operations
+String concatenation
 To conact two strings
 f_name = input("enter f_name:")
 l_name = input("enter l_name:")
@@ -170,4 +170,34 @@ index = name.find(" ")
 print(name[index+1:])
 o/p = satheesh
 index is space, index+1 will print next character after space.
+
+To print first word
+name =("parnapalli satheesh")
+index = name.find(" ")
+print(name[:index)
+o/p = Parnapalli
+
+To escape particular character
+name =("parnapalli satheesh")
+print(name[1:18:2])
+o/p = anplistes
+default Step size is 1, but above step size is 2.
+it will start from 1st character to 18th character & skips every second character from 1st.
+
+Reverese a string
+name =("parnapalli satheesh")
+print(name[::-1])
+o/p = seehtas illapanrap
+
+To split the string
+name =("parnapalli,satheesh, parnapalli,    sanjay")
+new_names = (name.split(","))
+print(name.split(","))       o/p = ['parnapalli', 'satheesh', ' parnapalli', 'sanjay']
+print(new_names[3])          o/p =     sanjay
+print(new_names[3].lstrip()) o/p = sanjay
+print(new_names[3].upper().lstrip() o/p = SANJAY
+
+lstrip & rstrip are used to remove spaces from left side & right side of string.
+
+
 
