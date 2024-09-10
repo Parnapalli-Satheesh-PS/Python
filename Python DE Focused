@@ -117,3 +117,9 @@ parnapalli
         satheesh
 
 String related operations
+To conact two strings
+f_name = input("enter f_name:")
+l_name = input("enter l_name:")
+print(f_name +" "+ l_name)
+o/p = Parnapalli Satheesh
+
