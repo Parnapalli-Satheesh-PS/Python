@@ -198,6 +198,3 @@ print(new_names[3].lstrip()) o/p = sanjay
 print(new_names[3].upper().lstrip() o/p = SANJAY
 
 lstrip & rstrip are used to remove spaces from left side & right side of string.
-
-
-
