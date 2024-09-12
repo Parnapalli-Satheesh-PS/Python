@@ -198,3 +198,9 @@ print(new_names[3].lstrip()) o/p = sanjay
 print(new_names[3].upper().lstrip() o/p = SANJAY
 
 lstrip & rstrip are used to remove spaces from left side & right side of string.
+
+Data structure - These conatin more than one value
+List - [1,2,3,4] - Immutable, fixed lenth, used when data doesn't changed, more faster
+Tuple - (1,2,3,4) - Immutable, fixed lenth, used when data doesn't changed, more faster
+Set - {1,2,3,4} - 
+Dictionary - {"name":"satheesh","Age":25,"Qualification":"BTech"}
