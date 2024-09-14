@@ -241,4 +241,47 @@ employee.pop()
 print(employee)
 o/p - [400, 30000]
 
+To print each value as seperate row using for loop
+employee = [400, 30000, 100]
+for x in employee:
+    print(x)
+o/p - 
+400
+30000
+100
+
+To print range of numbers
+numbers = range(1,4)
+for x in numbers:
+    print((x))
+o/p - 
+1
+2
+3
+
+sum of the numbers - 1 to 10 numbers sum
+numbers = range(1,11)
+sum = 0
+for x in numbers:
+    sum =sum+x
+print(sum)
+o/p- 55
+
+To print sum of first 100 numbers
+start = int(input("range_start: "))
+end = int(input("range_end: "))
+numbers = range(start, end+1)
+sum = 0
+for x in numbers:
+    sum =sum+x
+print(sum)
+
+end+1 includes last number i.e, 100 number too
+
+start - 1
+end- 100
+o/p - 5050
+
+
+
 
