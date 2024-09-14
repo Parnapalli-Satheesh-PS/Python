@@ -199,8 +199,46 @@ print(new_names[3].upper().lstrip() o/p = SANJAY
 
 lstrip & rstrip are used to remove spaces from left side & right side of string.
 
-Data structure - These conatin more than one value
-List - [1,2,3,4] - Immutable, fixed lenth, used when data doesn't changed, more faster
+Data structures - Used to store multiple values in a single variable
+List - [1,2,3,4] - mutable, dynamic lenth, used when frequent data changes, less faster
 Tuple - (1,2,3,4) - Immutable, fixed lenth, used when data doesn't changed, more faster
 Set - {1,2,3,4} - 
 Dictionary - {"name":"satheesh","Age":25,"Qualification":"BTech"}
+
+Sequence types - List, Tuple, String
+
+List - Mutable
+Tuple - Immutable
+String - Immutable
+Set - Mutable
+Dictionary - Mutable
+
+To mute the list
+employee = ["satheesh", 30000, "ETL Developer"]
+employee[2]="DE"
+print(employee[2])
+o/p - DE
+
+To add values to list at last - Use append() funtion
+employee = ["satheesh", 30000, "ETL Developer"]
+employee.append("Chennai")
+print(employee)
+o/p - ['satheesh', 30000, 'ETL Developer', 'Chennai']
+
+To add values to list in between - Use insert(1,1) funtion
+employee = ["satheesh", 30000, "ETL Developer"]
+employee.insert(1,"parnapalli")
+print(employee)
+o/p - ['satheesh', 'parnapalli', 30000, 'ETL Developer']
+
+To find min, max, len os list & tuple
+employee = [400, 30000, 100]
+print(min(employee))
+
+To remove last value of list - use pop() funtion
+employee = [400, 30000, 100]
+employee.pop()
+print(employee)
+o/p - [400, 30000]
+
+
