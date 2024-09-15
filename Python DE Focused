@@ -282,9 +282,49 @@ start - 1
 end- 100
 o/p - 5050
 
+To find the index of particular variable in list & tuple - indes()
+order = ["satti",None,100,"invalid",101.5]
+print(order.index(100))
+o/p - 2
 
+To find whether particular variable present in the list  & tuple or not - in
+print(101 in order)
+o/p - False
 
+To count the no. of values present in the list and tuple - count()
+print(order.count(100))
+o/p - 1
 
+To sort out the values in list - sort()
+order = [900,200,100,500,100,200,101]
+order.sort()
+print(order)
+o/p - [100, 100, 101, 200, 200, 500, 900]
 
+To print escneding order of list, first we have to sort() then we can reverse the list.
+order.sort()
+order.reverse()
+[900, 500, 200, 200, 101, 100, 100]
+
+for tuple sort() & reverse() won't work 
+
+To print unnique records in list and tuple
+order = (900,200,100,500,100,200,101.5)
+unique_oders = []
+for x in order:
+    if x in unique_oders:
+        continue
+    else:
+        unique_oders.append(x)
+print(unique_oders)
+o/p - [900, 200, 100, 500, 101]
+
+Better we can use set to print unique orders easily
+A set in Python is an unordered collection of unique elements.
+
+order = (900,200,100,500,100,200,101)
+unique_order = set(order)
+print(unique_order)
+o/p - {100, 101, 900, 200, 500}
 
 
