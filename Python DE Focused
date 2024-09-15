@@ -276,11 +276,14 @@ for x in numbers:
     sum =sum+x
 print(sum)
 
-end+1 includes last number i.e, 100 number too
+end+1 includes last number i.e, 100th number too
 
 start - 1
 end- 100
 o/p - 5050
+
+
+
 
 
 
